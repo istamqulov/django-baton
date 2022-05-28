@@ -6,7 +6,7 @@
   "scripts": {
     "stats": "npx webpack --config ./webpack.prod.js --json > stats.json",
     "compile": "BATON_REVISION=$(git rev-parse HEAD) npx webpack --config ./webpack.prod.js",
-    "watch": "npx webpack --watch --config ./webpack.dev.js",
+    "watch": "npx webpack --watch --config ./webpack.prod.js",
     "dev": "BATON_REVISION=$(git rev-parse HEAD) webpack serve --host 0.0.0.0 --progress --config ./webpack.dev.js",
     "lint": "./node_modules/eslint/bin/eslint.js ."
   },

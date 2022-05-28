@@ -8,6 +8,10 @@
 
   #content-main {
     @extend .container-fluid;
+    > form{
+          border-radius: 6px;
+          box-shadow:  rgb(76 78 100 / 22%) 0px 2px 10px 0px;
+    }
   }
 
   .object-tools {
@@ -166,4 +170,9 @@
 
 .change-form #content-main>form .form-row>div.baton-form-include {
   display: block;
+}
+
+.jsoneditor-search{
+  display: none!important;
+
 }

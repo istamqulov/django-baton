@@ -1,9 +1,9 @@
 // bootstrap
-$base: #d32d41;
+$base: #79aec8;
 $primary: darken($base, 20%);
-$secondary: #b3c100;
+$secondary: #417690;
 $accent: #b3c100;
-$font-family-sans-serif: 'Dosis', sans-serif !default;
+$font-family-sans-serif: '"Roboto","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif';
 
 // fonts
 $h1-size: 1.6rem;
@@ -40,7 +40,7 @@ $menu-bg: #263238;
 $menu-color: #fff;
 $menu-branding-color: #fff;
 $gravatar-border-color: #fff;
-$user-links-fg: $accent;
+$user-links-fg: $primary;
 $menu-link-color: #ccc;
 $menu-link-hover-color: #fff;
 $menu-li-hover-bg: darken($menu-bg, 2%);
