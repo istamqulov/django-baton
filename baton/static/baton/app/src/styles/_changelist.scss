@@ -5,6 +5,11 @@
   }
 
   .object-tools {
+    a{
+      text-transform: uppercase;
+      font-size: 0.8rem !important;
+    }
+
     .addlink {
       &::before {
         content: '\f067';

@@ -38,6 +38,7 @@ textarea {
 
 input[type=checkbox] {
   @extend .form-check-input;
+  margin-right: 5px;
 }
 
 .clear {

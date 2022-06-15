@@ -11,8 +11,12 @@
     > form{
           border-radius: 6px;
           box-shadow:  rgb(76 78 100 / 22%) 0px 2px 10px 0px;
+          .with-wrapped-fields{
+            padding-left: 5rem;
+          }
     }
   }
+
 
   .object-tools {
     @extend .ps-0;

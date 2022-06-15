@@ -21,6 +21,9 @@ body:not(.menu-mobile) {
 }
 
 .sidebar-menu {
+  .active{
+    z-index: 0!important;
+  }
   background: $menu-bg;
   color: $menu-color;
   height: 100%;
@@ -182,6 +185,7 @@ body:not(.menu-mobile) {
       overflow: auto;
       position: absolute;
       width: 100%;
+      z-index: 1000;
 
       div {
         align-items: center;
@@ -425,6 +429,7 @@ body:not(.menu-mobile) {
   }
 
   .active:not(.with-active) {
+
     @include media-breakpoint-up(lg) {
       background: $menu-active-voice-bg !important;
       border-left: 5px solid $menu-active-voice-border-color;
