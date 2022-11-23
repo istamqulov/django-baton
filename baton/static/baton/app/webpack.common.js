@@ -11,7 +11,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.join(__dirname, "dist"),
-    publicPath: "/cms_media/static/baton/app/dist/",
+     //publicPath: "/cms_media/static/baton/app/dist/",
     filename: "baton.min.js",
     clean: true,
   },
